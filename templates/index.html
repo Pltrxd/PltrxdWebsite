@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pltrxd</title>
+<link rel="icon" type="image/x-icon" href="Pltrxd.png" />
+<meta charset="UTF-8">
+<meta name="description" content="Pltrxd Website">
+<meta name="keywords" content="Pltrxd">
+<meta name="author" content="Pltrxd">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, red, black);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .title::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .box-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+</style>
+</head>
+<body>
+<div class="title">Pltrxd</div>
+<div class="container">
+  <a class="box-button" href="https://youtube.com/@Pltrxd?sub_confirmation=1">Subscribe</a>
+  <a class="box-button" href=/contact>Contact</a>
+  <a class="box-button" href="https://discord.gg/cWqmBVgyNt">Discord</a>
+</div>
+</body>
+</html>
